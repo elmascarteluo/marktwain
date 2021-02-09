@@ -1,0 +1,48 @@
+body {
+	background-color: #a52a2a;
+}
+.cabecera {
+	background-color: #a52a2a;
+	color: #ffa500;
+	text-align: center;
+}
+
+h1 {
+	font-family: Lobster;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a52a2a;
+}
+
+li {
+  float: right;
+  background-color: #832222;
+  border-right: 1px solid #904141
+}
+
+li:first-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: #ffa500;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #471212;
+}
+
+img {
+  max-width: 8em;
+  float: left;
+}
